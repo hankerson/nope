@@ -549,7 +549,7 @@ def leg_tripod(name, pos, spot, wiggle):
 				pwm.set_pwm(4, 0, int(pwm4-5*wiggle/6-increase*wiggle/6))
 				pwm.set_pwm(5, 0, int(pwm5+5*reach_wiggle/6+increase*reach_wiggle/6))
 			else:
-				pwm.set_pwm(3, 0, int(pwm3-2*wiggle/3-increase*wiggle/3)
+				pwm.set_pwm(3, 0, int(pwm3-2*wiggle/3-increase*wiggle/3))
 				pwm.set_pwm(4, 0, int(pwm4-wiggle/3+increase*wiggle/12))
 				pwm.set_pwm(5, 0, int(pwm5+reach_wiggle/6-increase*reach_wiggle/6))
 				pass
