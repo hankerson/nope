@@ -1,0 +1,143 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hi", "hello", "hey there", "hey", "hi there", "hiya", "how are ya", "how ya doin", "how are you", "sup", "howdy","yo", "how are things", "good day", "how's it going" ],
+    "responses": [""],
+    "context": [""]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+    "context": [""]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context": [""]
+    },
+    {"tag": "age",
+    "patterns": ["How old", "how old are you", "your age"],
+    "responses": ["I am digital, my age depends on you"],
+    "context": [""]
+    },
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context": [""]
+    },
+    {"tag": "who are you?",
+    "patterns": ["who are you?"],
+    "responses": ["I am just a python script"],
+    "context": [""]
+    },
+    {"tag": "",
+    "patterns": [""],
+    "responses": [""],
+    "context": [""]
+    },
+    {"tag": "exit",
+    "patterns": ["exit", "quit", "Turn this thing off", "go away", "shut it down", "shut yourself down", "turn off yourself"], 
+    "responses": [""],
+    "context": [""]
+    },
+    {"tag": "add_todo",
+    "patterns":["add a todo","add item to todo", "new item to todo"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "open_youtube",
+    "patterns":["open youtube","youtube open", "youtube new tab"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "show_todos",
+    "patterns":["show my todo list","show todo"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "searchYoutube",
+    "patterns":["search youtube", "you tube", "youtube"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "systemInfo",
+    "patterns":["system info", "system information", "what is my system information"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "artFromUrl",
+    "patterns":["scrape a web article", "web article scraping", "summarize a web article", "web article information"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "coldWar",
+    "patterns":["Open cold war","open modern warfare cold war", "open call of duty"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "killVlc",
+    "patterns":["turn off vlc player", "close Vlc"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "killChrome",
+    "patterns":["Turn off Chrome", "shut down Chrome", "terminate browser", "terminate chrome"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "playPremDhillon",
+    "patterns":["prem dhillon", "pram dhillon", "prem dilo", "prem", "praim dlow", "pram dlow", "braim dlow"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "playProphec",
+    "patterns":[" prophec", "sikardar" , "Maula", "mola", "mula"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "searchGoogle",
+    "patterns":["search google", "Google"],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "notUnderstood",
+    "patterns":[""],
+    "responses":[""],
+    "context":[""]
+    },
+    {"tag": "create_note",
+    "patterns":["create a note", "new note"],
+    "responses":[""],
+    "context":[""]
+    }
+]
+}
